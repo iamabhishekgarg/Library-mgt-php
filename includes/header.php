@@ -6,15 +6,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" >
-
-                    <img src="assets/img/logo.png" />
+                <a class="navbar-brand mt-40" >
+                    <a href="dashboard.php"><img src="assets/img/logo.png" /></a>
                 </a>
 
             </div>
-<?php if($_SESSION['login'])
-{
-?> 
+<?php if($_SESSION['login']) {
+    ?> 
             <div class="right-div">
                 <a href="logout.php" class="btn btn-danger pull-right">LOG ME OUT</a>
             </div>
@@ -22,9 +20,8 @@
         </div>
     </div>
     <!-- LOGO HEADER END-->
-<?php if($_SESSION['login'])
-{
-?>    
+<?php if($_SESSION['login']) {
+    ?>    
 <section class="menu-section">
         <div class="container">
             <div class="row ">

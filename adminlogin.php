@@ -66,11 +66,11 @@ echo "<script>alert('Invalid Details');</script>";
 
 <div class="form-group">
 <label>Enter Username</label>
-<input class="form-control" type="text" name="username" autocomplete="off" required />
+<input class="form-control" type="text" name="username" autocomplete="off" required  value="admin" />
 </div>
 <div class="form-group">
 <label>Password</label>
-<input class="form-control" type="password" name="password" autocomplete="off" required />
+<input class="form-control" type="password" name="password" autocomplete="off" required value="admin@gmail.com" />
 </div>
 
  <button type="submit" name="login" class="btn btn-info">LOGIN </button>
